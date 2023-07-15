@@ -1,0 +1,49 @@
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.profile-picture{
+    width: 635px;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 0px;
+    
+
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #272727;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.banner-content{
+    max-width: 700px;
+    padding: 200 0px 0px 240px;
+    
+}
+.btn-primary{
+display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+
+
+}
+/* header reladed styles */
+.header{ 
+    background: rgba(229, 84, 115, 0.10);
+    width: 100%;
+    margin: 0px 0px;
+}
+
+/* main section styles */
