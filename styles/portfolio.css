@@ -1,3 +1,12 @@
+
+/* common shared style */
+*body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
 .banner{
     display: flex;
     align-items: center;
@@ -30,7 +39,7 @@
     
 }
 .btn-primary{
-display: inline-flex;
+display: flex;
 padding: 20px 43px;
 align-items: flex-start;
 gap: 10px;
@@ -47,3 +56,70 @@ background: #E55473;
 }
 
 /* main section styles */
+.featured-flowers{
+    width: 1920px;
+    text-align: center;
+    margin-top: 120px;
+}
+.section-title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+
+.banner-title{
+color: #272727;
+   font-size: 80px;
+   font-weight: 800;
+}
+
+
+.section-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+ }   
+
+
+/*featured flower related styles */
+#featured-section{
+    padding: 24px 200px 40px 200px;
+}
+.featured-flower-collection{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    position: absolute;
+}
+#first-photo{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 300px;
+padding: 110px 70px 0px 70px;
+flex-shrink: 0;
+/* gap: 10px; */
+}
+#second-photo{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+height: 524px;
+flex-shrink: 0;
+margin: 10px;
+
+}
+#third-photo{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 464px;
+height: 525px;
+flex-shrink: 0;
+}
+.collection-title{
+    text-decoration: underline;
+}
