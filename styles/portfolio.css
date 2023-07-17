@@ -5,7 +5,7 @@
 }
 
 
-
+/* banner section */
 
 .banner{
     display: flex;
@@ -48,14 +48,14 @@ background: #E55473;
 
 
 }
-/* header reladed styles */
+/* header section */
 .header{ 
     background: rgba(229, 84, 115, 0.10);
     width: 100%;
     margin: 0px 0px;
 }
 
-/* main section styles */
+/* main section */
 .featured-flowers{
     width: 1920px;
     text-align: center;
@@ -84,7 +84,7 @@ line-height: 30px; /* 166.667% */
  }   
 
 
-/*featured flower related styles */
+/*featured flower section */
 #featured-section{
     padding: 24px 200px 40px 200px;
 }
@@ -102,7 +102,7 @@ background: rgba(167, 33, 98, 0.15);
 width: 300px;
 padding: 110px 70px 0px 70px;
 flex-shrink: 0;
-/* gap: 10px; */
+
 }
 #second-photo{
     border-radius: 300px 300px 0px 0px;
@@ -123,6 +123,8 @@ flex-shrink: 0;
 .collection-title{
     text-decoration: underline;
 }
+/* hot deal section */
+
 .hot-deal{margin-top: 700px;
 display: flex;
 align-items: center;
@@ -162,6 +164,8 @@ line-height: 20px;
 
     
 }
+/* instagram section */
+
 .instagram-description{
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
@@ -180,12 +184,9 @@ margin-left: 620px;
     margin-left: 240px;
     gap: 10px;
 }
-.insta-first{
+
    
-}
-.insta-second{
-    
-}
+
 .insta-title{
     color: #272727;
 text-align: center;
@@ -198,6 +199,8 @@ margin-bottom: 10px;
 .colorful-text{
     color: #E55473;
 }
+/* latest deal section */
+
 .latest-deal{
     
     background-image: url('../images/Rectangle\ 9.png');
@@ -242,9 +245,11 @@ font-size: 30px;
 font-weight: 800;
 padding-top: 200px;
 }
+/* footer sectiton */
+
 .footer{
     text-align: center;
-    margin-top: 170px;
+    margin-top: 130px;
     background-color:azure;
 }
 .footer-title{
