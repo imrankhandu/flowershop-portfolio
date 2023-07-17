@@ -158,6 +158,8 @@ line-height: 20px;
 }
 #btn-deal{
     text-align: center;
+    margin-left: 240px;
+
     
 }
 .instagram-description{
@@ -197,14 +199,15 @@ margin-bottom: 10px;
     color: #E55473;
 }
 .latest-deal{
-    /* text-align: center; */
-    /* align-items: center; */
+    
     background-image: url('../images/Rectangle\ 9.png');
     width: 1440px;
 height: 449px;
 flex-shrink: 0;
 margin-left: 220px;
 align-items: center;
+border-radius: 8px;
+
 }
 .latest{
     text-align: center;
@@ -238,4 +241,31 @@ font-size: 30px;
 
 font-weight: 800;
 padding-top: 200px;
+}
+.footer{
+    text-align: center;
+    margin-top: 170px;
+    background-color:azure;
+}
+.footer-title{
+    
+font-size: 30px;
+font-weight: 800;
+
+}
+.footer-description{
+color: #FFFFFF
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
+}
+.the-end{
+   
+text-align: center;
+
+font-size: 16px;
+
+font-weight: 400;
+
 }
